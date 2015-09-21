@@ -3,13 +3,6 @@ Selects optimal lineup given initial parameters.
 
 Currently depends on having a properly-formatted csv input file.
     columns: name,team,position_text,salary,points
-
-Next steps: 1) Build a web-scraper to pull stat predictions from various sites.
-            2) Build conversion functionality to turn those predictions into
-                useable csv files (or pandas dfs)
-            3) Import scoring systems and salary caps for various DFS sites,
-                integrate into the csv or df creation functionality.
-            4) Backtest against previous weeks? Forwardtest with real money!?
 '''
 import sys
 import pandas as pd
